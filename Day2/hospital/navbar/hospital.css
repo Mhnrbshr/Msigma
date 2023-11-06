@@ -1,0 +1,41 @@
+li{
+    display: inline;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: end;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+header{
+    background-color: whitesmoke;
+    
+}
+.hosp{
+    width: 15%;
+    height: 50px;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+}
+#head1{
+    float: left;
+}
+.container li .active{
+    color: red;
+}
+.container li:hover{
+    background-color: rgb(194, 177, 177);
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homepic{
+    background-image: url(image\ 23.png);
+}
